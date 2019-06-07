@@ -3,7 +3,7 @@
 // Selects all input elements on page
 const inputs = document.querySelectorAll('.controls input');
 
-// Updates , mnb' .nhybjuj7n6hbgvc5;,selected properties as they are changed.
+// Updates selected properties as they are changed.
 function handleUpdate() {
     const suffix = this.dataset.sizing || '';
     document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
