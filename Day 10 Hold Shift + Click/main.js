@@ -33,6 +33,7 @@ const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
 
 
 let lastChecked; // assining to the item initially checked.
+// Initializing variables (not adding values, sets them as a container, but empty, meaning they can keep changing. hence we neveer initialize with const.)
 
 // Handles ALL that happens on the click event.
 function handleCheck(e) {
@@ -52,7 +53,7 @@ function handleCheck(e) {
                 console.log('What tha heck is going on!!!');
             }
 
-            // If incetween is true then, else no.
+            // If inbetween is true then, else no.
             if (inBetween) {
                 checkbox.checked = true;
             }
