@@ -12,4 +12,20 @@ window.addEventListener('keyup', (e) => {
         };
         cornfy_add()
         console.log(pressed);
-    }) // Thia is more or less a keylogger.
+    }) // This is more or less a keylogger.
+
+
+/* 
+Questions
+
+1. What is really the window ?
+
+2. What is the difference between window and Window
+
+3.How exactly does splice work
+
+4. What is the join method?
+
+5. .lenght -1 is a widely used pattern, what does it do?
+    
+*/
