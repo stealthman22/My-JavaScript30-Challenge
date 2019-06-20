@@ -28,4 +28,5 @@ Questions
 
 5. .lenght -1 is a widely used pattern, what does it do?
     
+6. What is cornfy
 */
