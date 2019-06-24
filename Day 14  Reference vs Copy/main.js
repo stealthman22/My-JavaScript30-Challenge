@@ -95,4 +95,7 @@ console.table(wes);
 const dev = Object.assign({}, wes);
 
 // For cloning cheat 
-const dev2 = JSON.parse(JSON.stringify(wes));
+const dev2 = JSON.parse(JSON.stringify(wes)); // json.stringify boxes object in, changing it to a string .
+// When you immediately json.parse the string to turn it to an object, you get a full copy of it.
+
+// Check for perfomance issues before using this json deep clone cheat.
