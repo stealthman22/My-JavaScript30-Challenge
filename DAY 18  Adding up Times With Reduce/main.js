@@ -34,14 +34,6 @@ console.log(hours, mins, secondsLeft);
 
 
 
-
-
-
-
-
-
-
-
 /* 
 1.Grab the nodelist.
 
